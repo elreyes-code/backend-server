@@ -8,7 +8,7 @@ app.use(cors());
 
 // CONEXIÓN A LA TERCERA MÁQUINA
 const db = mysql.createConnection({
-    host: 'AQUI_VA_LA_IP_DE_TU_TERCERA_MAQUINA', 
+    host: '192.168.10.26', 
     user: 'elinath',
     password: 'elinath_123',
     database: 'inventario_db'
